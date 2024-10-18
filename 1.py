@@ -21,6 +21,8 @@ class Book:
         with open(file, "r") as ptr:
             oqi = ptr.readlines()
         with open(file, "w") as ptr:
+
+            #hello today dam alish
             for i in oqi:
                 id = i.split(',')[0]
                 if id != str(n):
